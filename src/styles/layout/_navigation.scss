@@ -1,0 +1,86 @@
+.navigation {
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  z-index: 98;
+  position: fixed;
+  transform: translate(0px, -100%);
+
+  background: $black;
+
+  &__container {
+    margin: 0 auto;
+    padding: 0 9vw 6rem;
+    padding-top: 18.4rem;
+
+    &--links {
+      margin: 3rem 0;
+    }
+
+    @media only screen and (max-width: 425px) {
+      padding-top: 12.5rem;
+    }
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    &--row {
+      display: flex;
+
+      &:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+
+      @media only screen and (max-width: 425px) {
+        flex-direction: column;
+      }
+    }
+
+    &--col {
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+
+      .link {
+        transform: translateY(100%);
+      }
+
+      @media only screen and (max-width: 425px) {
+        flex-direction: column;
+      }
+    }
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      text-decoration: none;
+      text-transform: capitalize;
+      font-family: inherit;
+      font-weight: 600;
+      font-size: 4rem;
+      color: rgba($white, 0.4);
+      transition: color 0.15s ease-in;
+    }
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  &__seperator {
+    width: 4.2rem;
+    height: 3px;
+    margin: 0 2rem;
+    opacity: 0;
+    background-color: rgba($white, 0.5);
+
+    @media only screen and (max-width: 425px) {
+      margin: 0;
+    }
+  }
+}
