@@ -1,0 +1,33 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "This is my first time using webpack.  It's complicated and needs a lot of time to get used to.",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.4.0"
+  },
+  "dependencies": {
+    "@types/mini-css-extract-plugin": "^1.2.1",
+    "@types/optimize-css-assets-webpack-plugin": "^5.0.1",
+    "@types/terser-webpack-plugin": "^5.0.2",
+    "clean-webpack-plugin": "^3.0.0"
+  },
+  "main": "webpack.common.js"
+}
