@@ -1,9 +1,9 @@
 // import logo from "/src/assets/Logo.png";
 
-export function initPage() {
-  const container = document.createElement("DIV");
-  container.className = "container";
-  
+export default function initPage() {
+  const container = document.createElement('DIV');
+  container.className = 'container';
+
   const html = `
 
     <img src="/src/assets/Logo.png" alt="Logo" class="logo">
@@ -18,8 +18,7 @@ export function initPage() {
     `;
 
 
-  container.insertAdjacentHTML("beforeend", html);
-
+  container.insertAdjacentHTML('beforeend', html);
 
 
   return container;
