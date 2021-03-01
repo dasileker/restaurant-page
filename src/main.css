@@ -17,7 +17,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--light-yellow);
-  height: 100vh
+  height: 100vh;
 }
 
 h1 {
@@ -47,7 +47,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .navbar {
@@ -114,7 +113,7 @@ h1 {
   outline: none;
 }
 
-.cta-btn:hover{
+.cta-btn:hover {
   border: 2px solid var(--orange);
   background: transparent;
   color: var(--orange);
@@ -132,7 +131,7 @@ h1 {
 
 .about-page img {
   margin-top: 103px;
-  height: clamp(30%,60%,423px);
+  height: 30px, 60px, 423px;
   margin-bottom: 20px;
 }
 
@@ -252,11 +251,8 @@ iframe {
   cursor: pointer;
 }
 
-
 @media only screen and (max-width: 600px) {
-
-
-  .intro{
+  .intro {
     position: initial;
     margin-top: 100px;
   }
@@ -268,7 +264,7 @@ iframe {
   .menu-items {
     width: 100%;
   }
-  
+
   .menu-item {
     flex-direction: column;
     width: 100%;
