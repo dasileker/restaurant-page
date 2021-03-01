@@ -8,9 +8,7 @@
 
  ## Page live Demo Link
 
- - sorry i could'nt deploy the page 😁
-
- [link!]()
+ [link!](https://raw.githack.com/dasileker/restaurant-page/feature/dist/index.html)
 
  ## Built With
 
