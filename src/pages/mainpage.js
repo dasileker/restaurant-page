@@ -1,4 +1,4 @@
-import logo from "/src/assets/Logo.png";
+// import logo from "/src/assets/Logo.png";
 
 export function initPage() {
   const container = document.createElement("DIV");
@@ -6,7 +6,7 @@ export function initPage() {
   
   const html = `
 
-    <img src=${logo} alt="Logo" class="logo">
+    <img src="/src/assets/Logo.png" alt="Logo" class="logo">
     <ul class="navbar">
         <li class="link" id="home">Home</li>      
         <li class="link" id="about">About</li>     

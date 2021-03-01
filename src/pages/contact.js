@@ -10,7 +10,7 @@ export function contactPage() {
         <div class="contact-details">
             <p class="contact-title">Contact Us</p>
             <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            // <img src=${PhoneNumber} alt="phone number">
+            // <img src= alt="phone number">
             <h3>Phone Number: +2120000000</h3>
             <br><br>
             //p

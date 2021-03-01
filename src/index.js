@@ -3,9 +3,9 @@ import { initPage } from "./pages/mainpage";
 import { homePage } from "./pages/home";
 import { aboutPage } from "./pages/about";
 import { menuPage } from "./pages/menu";
-import { contactPage } from "./pages/contact.js";
+import { contactPage } from "./pages/contact";
 import favicon from "/src/assets/burger-favicon.png";
-import "./main.css";
+// import "./main.css";
 
 (function () {
   var link =

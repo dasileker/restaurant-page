@@ -1,4 +1,4 @@
-import hero from "/src/assets/about-photo.png";
+// import hero from "/src/assets/about-photo.png";
 
 export function aboutPage(){
     const aboutDiv = document.createElement('DIV');
@@ -10,7 +10,7 @@ export function aboutPage(){
     <p class="about-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
     </div>
     
-    <img src=${hero} alt="About photo">
+    <img src=$"/src/assets/about-photo.png" alt="About photo">
 
     `;
 
