@@ -1,6 +1,3 @@
-// import PhoneNumber from "/src/assets/phone-number.png";
-// import Email from "/src/assets/Email.png";
-
 export default function contactPage() {
   const contactDiv = document.createElement('DIV');
   contactDiv.className = 'pages contact-page';

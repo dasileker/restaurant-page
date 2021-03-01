@@ -1,5 +1,3 @@
-// import logo from "/src/assets/Logo.png";
-
 export default function initPage() {
   const container = document.createElement('DIV');
   container.className = 'container';
@@ -16,10 +14,6 @@ export default function initPage() {
     
     <div class="main-content"></div>
     `;
-
-
   container.insertAdjacentHTML('beforeend', html);
-
-
   return container;
 }

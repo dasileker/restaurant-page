@@ -1,5 +1,3 @@
-// import hero from '/src/assets/about-photo';
-
 export default function aboutPage() {
   const aboutDiv = document.createElement('DIV');
   aboutDiv.className = 'pages about-page';

@@ -1,8 +1,3 @@
-// import { ThiccBurger } from './src/assets/thicc-bruger.png';
-// import RedBurger from '/src/assets/red-burger.png';
-// import VeryThiccBurger from '/src/assets/very-thicc-burger.png';
-// import ThiccFries from '/src/assets/thicc-fries.png';
-
 export default function menuPage() {
   const menuDiv = document.createElement('DIV');
   menuDiv.className = 'pages menu-page';

@@ -1,19 +1,15 @@
-import { getInnerHTML } from 'domutils';
 import Navigation from './navigation';
 import initPage from './pages/mainpage';
 import homePage from './pages/home';
 import aboutPage from './pages/about';
 import menuPage from './pages/menu';
 import contactPage from './pages/contact';
-// import favicon from '/src/assets/burger-favicon.png';
-// import "./main.css";
 
 function html() {
   const link = document.querySelector("link[rel*='icon']")
     || document.createElement('link');
   link.type = 'image/x-icon';
   link.rel = 'shortcut icon';
-  // link.href = favicon;
   document.getElementsByTagName('head')[0].appendChild(link);
 }
 
@@ -26,7 +22,6 @@ mainContent.append(aboutPage());
 mainContent.append(menuPage());
 mainContent.append(contactPage());
 mainContent.append(html());
-mainContent.append(getInnerHTML());
 
 const nav = new Navigation();
 const pages = document.querySelectorAll('.pages');
