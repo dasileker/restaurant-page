@@ -27,13 +27,6 @@
   - To Make the website fully working make sure to install the webpack
   and run the folowing command if yoy don't have it.
 
-  - npm install webpack -g "to make the installation global".
-
-  - npm install webpack-cli --save-dev.
-  - add this comand if you want to work with the webpack server " npm install --save-dev webpack-dev-server.
-
-  - voila Now youcan view the page in your localhost ENV.
-
 
   ## Author
 
