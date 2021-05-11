@@ -8,7 +8,7 @@
 
  ## Page live Demo Link
 
- [link!](https://raw.githack.com/dasileker/restaurant-page/feature/dist/index.html)
+ [link!](https://burger-restaurant.netlify.app/)
 
  ## Built With
 
