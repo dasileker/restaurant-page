@@ -29,9 +29,15 @@ h1 {
 }
 
 .logo {
-  height: 178px;
+  height: 108px;
   width: 200px;
   cursor: pointer;
+}
+
+.cart {
+  float: right;
+  width: 50px;
+  height: 40px;
 }
 
 .content {
