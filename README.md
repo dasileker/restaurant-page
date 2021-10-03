@@ -21,7 +21,7 @@
 
 ## How It works
 
-- First Open Your terminal and paste : git clone git@github com:dosimeter/restaurant-page.git.
+- First Open Your terminal and paste : git clone git@github com:dasileker/restaurant-page.git.
 
 - Then Cd to the Folder && Open it in your Text editor.
 
