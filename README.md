@@ -35,9 +35,9 @@
 
 ## Author
 
-- GitHub (@dasileker) [Ferrari](www.github.com/dasileker)
-- twitter (@dasileker) [dosimeter](www.twitter.com/dasileker)
-- LinkedIn (@dasileker) [Ferrari](https://www.linkedin.com/in/amine-zerradi-46b0a697/)
+- GitHub (@dasileker) [Zerradi](www.github.com/dasileker)
+- twitter (@dasileker) [Zerradi](www.twitter.com/dasileker)
+- LinkedIn (@dasileker) [Zerradi](https://www.linkedin.com/in/amine-zerradi-46b0a697/)
 
 ## Feedback
 
