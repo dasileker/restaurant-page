@@ -30,6 +30,7 @@
 ## Feature Upgrade
 
 - Add cart to the website.
+- Add more Items to the menu.
 - Add possibility to **Order** online.
 - Upgrading the menu to have more food categories.
 
